@@ -3,7 +3,7 @@
   "version": "0.0.3",
   "repository": {
     "type":"git",
-    "url": "git@github.com:maxogden/voxel-hello-world.git"
+    "url": "git@github.com:epicfaace/voxel-hello-world.git"
   },
   "devDependencies": {
     "voxel-engine": "0.5.8",
