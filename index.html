@@ -11,7 +11,7 @@
         margin: 0px;
         overflow: hidden;
       }
-      #container {
+      #container,#crosshair {
         -moz-user-select: none;
         -webkit-user-select: none;
         user-select: none;
@@ -23,6 +23,8 @@
         margin: -16px 0 0 -16px;
         width: 32px;
         height: 32px;
+        color:white;
+        font-size:2em;
       }
 
       #stats { bottom: 0px; right: 0px; }
@@ -35,7 +37,7 @@
   <body>
     <img class="logo" src="logo-white.png">
     <div id="container"></div>
-    <div id="crosshair"><img src="crosshair.png"/></div>
+    <div id="crosshair"><!img src="crosshair.png"/>+</div>
     <nav class="bar-tab" id="tools" >
       <ul class="tab-inner">
         <li class="tab-item active">
