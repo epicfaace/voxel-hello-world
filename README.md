@@ -1,3 +1,8 @@
+#MY NOTES
+```
+cd git/voxel-hello-world
+npm start
+```
 # voxel-hello-world
 
 Learn more at http://voxeljs.com
