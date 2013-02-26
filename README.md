@@ -3,6 +3,11 @@
 cd git/voxel-hello-world
 npm start
 ```
+##OR:
+```
+browserify index.js -o indexo.js
+python -m SimpleHTTPServer
+```
 # voxel-hello-world
 
 Learn more at http://voxeljs.com

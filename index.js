@@ -2,6 +2,7 @@ var createGame = require('voxel-engine');
 var player = require('voxel-player');
 var texturePath = require('painterly-textures')(__dirname);
 var createTerrain = require('voxel-perlin-terrain');
+var highlight = require('voxel-highlight'); //special
 var game = createGame({
   //lower scale factor = smoother
   generateVoxelChunk: createTerrain({ scaleFactor: 20 }),
@@ -63,7 +64,7 @@ game.on('fire', function(target, state) {
     //game.createBlock(point.addSelf(vec.multiplyScalar(-game.cubeSize/2)), currentMaterial)
   }*/
 });
-
+highlight(game)
 var container = document.querySelector('#container')
 game.appendTo(container);
 window.game=game;
